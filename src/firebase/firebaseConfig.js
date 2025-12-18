@@ -7,13 +7,13 @@ import { getStorage } from "firebase/storage";
    Firebase Configuration
 ============================ */
 const firebaseConfig = {
-  apiKey: "AIzaSyAL8K3y7mKvHpDPW62xIwiPjxrcG16vHek",
-  authDomain: "social-media-cee0a.firebaseapp.com",
-  projectId: "social-media-cee0a",
-  storageBucket: "social-media-cee0a.firebasestorage.app",
-  messagingSenderId: "693716067118",
-  appId: "1:693716067118:web:dd4db543c1f4bded8310bf",
-  measurementId: "G-8E6G26YMPM"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 /* ============================
